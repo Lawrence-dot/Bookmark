@@ -1,0 +1,707 @@
+@font-face {  
+    font-family: rubiklight;
+    src: url('../Assets/fonts/Rubik-Light.ttf');
+}
+
+@font-face {  
+    font-family: rubik;
+    src: url('../Assets/fonts/Rubik-Bold.ttf');
+}
+
+@font-face {  
+    font-family: rubikregular;
+    src: url('../Assets/fonts/Rubik-Regular.ttf');
+}
+
+
+body {
+    overflow-x: hidden;
+}
+
+.Home {
+    height: 100vh;
+    min-width: 310px;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.transition-d {
+    transition: all .5s ease;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.container-d {
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 76rem;
+}
+
+.topnavbdy {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.navlinks span {
+    margin-left: 50px;
+    font-family: rubikregular;
+    font-size: 18px;
+    cursor: pointer;
+    color: hsl(231, 5%, 52%);
+    transition: all .5s ease;
+}
+
+.navlinks span:hover {
+    color: hsl(0, 94%, 66%);
+}
+
+.tlogin {
+    border: .5px solid hsl(223, 47%, 85%);
+    color: hsl(231, 5%, 52%)!important;
+    padding: 7px 25px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 0px hsl(232, 52%, 92%);
+    transition: all .5s ease;
+}
+
+.sidelogin {
+    border: .5px solid hsl(223, 47%, 85%);
+    color: hsl(231, 5%, 52%)!important;
+    padding: 5px 25px;
+    border-radius: 5px;
+    transition: all .5s ease;
+    text-align: center;
+}
+
+.tlogin:hover {
+    border: 1px solid hsl(0, 94%, 66%);
+    color: hsl(0, 94%, 66%)!important;
+}
+
+.herobtns span {
+    border: .5px solid hsla(229, 17%, 63%, 0.658);
+    color: hsl(229, 8%, 60%)!important;
+    padding: 15px 21px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px 0px hsl(223, 47%, 85%);
+    transition: all .5s ease;
+    cursor: pointer;
+    text-align: center;
+}
+
+.herobtns span:hover {
+    border: 1px solid  hsl(230, 100%, 79%);
+    color:hsl(230, 100%, 79%)!important;
+
+}
+
+.herotxt {
+    font-family: rubiklight;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+
+
+.firstctn {
+    margin-top: 105px;
+    font-family: rubikregular;
+    font-weight: 900;
+    color: hsl(229, 31%, 21%);
+}
+
+.tx-lg {
+    font-size: 36px;
+}
+
+.tx-xl {
+    font-size: 46px;
+}
+
+.heroimgback {
+    padding: 150px 5%;
+    background-color: #5267DF;
+    margin-top: -45%;
+    border-radius: 0 0 0 100px;
+    margin-left: 191px;
+    margin-right: -170px;
+}
+
+.tabimgback {
+    padding: 150px 2%;
+    background-color: #5267DF;
+    margin-top: -40%;
+    border-radius: 0 0 200px 0;
+    margin-left: -171px;
+    max-width: 551px;
+}
+
+.herofsec {
+    max-width: 90%;
+}
+
+.herotxt {
+    color: hsl(229, 8%, 60%);
+}
+
+.featuresbdy {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.fbsyhead span {
+    font-size: 36px;
+    color: #222222;
+}
+
+.featurestxt {
+    color: hsl(229, 8%, 60%);
+    text-align: center;
+    font-size: 18px;
+    font-family: rubiklight;
+}
+
+
+.fctxt {
+    max-width: 600px;
+}
+
+.ftabhead span {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: rubikregular;
+    color: #2222229c;
+    transition: color .5s;
+}
+
+.ftabhead span:hover {
+    color: hsl(0, 94%, 66%)!important;
+    cursor: pointer;
+}
+
+.ftabhead {
+    max-width: 700px;
+    margin-top: 50px;
+    border-bottom: 2px solid hsl(229, 8%, 60%);
+    padding-bottom: 20px;
+    margin: 50px auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 566px;
+}
+
+.ftabhead span.show {
+    color: hsl(0, 94%, 66%)!important;
+    border-left: 5px solid hsl(0, 94%, 66%)!important;
+    margin: 0 10px;
+}
+
+
+
+.tbheader {
+    font-weight: 700;
+    font-family: rubikregular;
+    font-size: 36px;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    color: #222222;
+}
+
+.tbcontainer {
+    max-width: 0px;
+    margin-left: 70px;
+    visibility: hidden;
+    height: 0;
+}
+
+.tbcontainer.show {
+    height: 100%;
+    max-width: 500px;
+    font-family: rubikregular;
+    visibility: visible;
+}
+
+.tabimage {
+    height: 347px;
+    width: 570px;
+}
+
+.tbcontainer p {
+    color: hsl(229, 8%, 60%);
+    font-size: 17px;
+    font-family: rubiklight;
+}
+
+.minfo {
+    background-color:hsl(231, 69%, 60%);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin-top: 25px;
+    transition: all .5s ease;
+    font-family: rubik;
+}
+
+.minfo:hover {
+    background-color:hsl(231, 69%, 80%);
+}
+
+.extensionsbdy {
+    margin-top: 70px;
+}
+
+.extensionhead span {
+    font-size: 36px;
+    color: #222222;
+  }
+
+  .extensionhead p {
+    color: hsl(229, 8%, 60%);
+    font-size: 18px;
+  }
+
+.extxt {
+    max-width: 600px;
+    font-family: rubiklight;
+}
+
+.ebox {
+    /* border: 1px solid hsl(229, 29%, 89%); */
+    padding: 20px;
+    box-shadow: 1px 1px 6px 1px hsl(223, 47%, 85%);
+    max-width: 350px;
+    height: 410px;
+    border-radius: 8px;
+}
+
+.extension-content {
+    gap: 20px;
+}
+
+.ebox:nth-child(2) {
+    margin-top: 40px;
+}
+
+.ebox:nth-child(3) {
+    margin-top: 80px;
+}
+
+.ebtitle {
+    font-size: 26px;
+    font-weight: 700;
+    font-family: rubikregular;
+}
+
+.ebversion {
+    color: hsl(229, 8%, 60%);
+}
+
+.ebbtn button {
+    background-color:hsl(231, 69%, 60%);
+    color: white;
+    padding: 15px;
+    transition: all .5s ease;
+    border-radius: 8px;
+    font-weight: 700;
+    font-family: rubik;
+}
+
+.ebbtn button:hover {
+    background: transparent;
+    border:1px solid hsl(231, 69%, 60%);
+    color:hsl(231, 69%, 60%);
+}
+
+.extdot {
+    margin: 50px -20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.ebversion {
+    font-family: rubik;
+}
+
+.faqbdy {
+    margin-top: 150px;
+}
+
+.faqtxt {
+    max-width: 600px;
+    font-family: rubiklight;
+}
+
+.faqcontent {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.faqhead p {
+    color: hsl(229, 8%, 60%);
+    font-size: 18px;
+}
+
+.faqhead span {
+    font-size: 36px;
+    color: #222222;
+  }
+
+.fanswer {
+    visibility: hidden;
+    height: 0;
+}
+
+.fanswer.show {
+    visibility: visible;
+    height: 100%;
+}
+
+.faquestion {
+    font-size: 26px;
+}
+
+.fans {
+    font-family: rubiklight;
+}
+
+.fque {
+    font-size: 22px;
+}
+
+.fque:hover {
+    color: hsl(0, 94%, 66%);
+}
+
+.faqcomp {
+    border-bottom: 1px solid rgba(133, 130, 130, 0.247);
+}
+
+.contact {
+    background-color: hsl(231, 69%, 60%);
+    padding: 50px 0;
+    margin-top: 100px;
+    margin-left: -170px;
+    margin-right: -170px;
+}
+
+.contactcnt {
+    max-width: 450px;
+    color: white;
+    margin: 0 auto;
+    text-align: center;  
+}
+
+.cts {
+    font-size: 24px;
+    font-family: rubik; 
+}
+
+.contactform input {
+    padding: 12px;
+    color: #222222;
+    border-radius: 4px;
+    border: 1px solid hsl(0, 94%, 66%);
+}
+
+.contactform button {
+    margin-left: 10px;
+    background-color: hsl(0, 94%, 66%);
+    border-radius: 5px;
+    padding: 7px 18px;
+}
+
+.contactform button:hover {
+    border: 1px solid hsl(0, 94%, 66%);
+    background-color: #ffffff;
+    color: hsl(0, 94%, 66%);
+}
+
+.cntsmall {
+    color: #ffffffef;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.hh {
+    color:hsl(231, 69%, 60%);
+    color: hsl(0, 94%, 66%);
+    color: hsl(229, 8%, 60%);
+    color: hsl(229, 31%, 21%);
+}
+
+.footer {
+    background: hsl(229, 31%, 21%);
+    padding: 30px 0;
+    margin-left: -170px;
+    margin-right: -170px;
+}
+
+
+.txt-white {
+    color: #ffffff!important;
+}
+
+.sidenav {
+    visibility: hidden;
+    height: 0;
+    position: fixed;
+    opacity: 0;
+    width: 0;
+    transition: all .6s ease; 
+}
+
+.sidenav.show {
+    background: hsl(229, 31%, 21%);
+    visibility: visible;
+    height: 100vh;
+    opacity: .9;
+    position: fixed;
+    width: 100vw;
+}
+
+.noscroll {
+    overflow: hidden!important;
+}
+
+.sidelnks {
+    border-bottom: 1px solid #aaa9a9;
+    padding-bottom: 10px;
+}
+
+.closeside:hover {
+    color: red;
+}
+
+/* .sidelnks:first-child {
+    border-top: 1px solid #aaa9a9;
+
+} */
+
+
+@media (max-width: 1023px) {
+    .tx-lg {
+        font-size: 28px;
+    }
+
+    .heroimgback {
+        margin-right: -2px;
+    }
+
+    .tabimage {
+        height: 100%;
+        width: 100%;
+    }
+
+    .ebox {
+        margin: 0 auto;
+    }
+
+    .tbcontainer {
+        margin-left: 0px;
+        max-width: 100%!important;
+      }
+
+    .tbheader {
+        text-align: center;
+    }
+
+    .contact {
+
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .footer {
+
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 639px) {
+    .navlinks span {
+
+        display: none;
+    }
+
+    .herofsec {
+        max-width: 100%;
+    }
+
+    .tx-lg {
+        font-size: 22px;
+    }
+
+    .firstctn {
+        margin-top: 40px;
+    }
+
+    .tabimgback {
+        padding: 75px 2%;
+      }
+
+
+      .tx-xl {
+        font-size: 31px;
+    }
+
+      .heroimgback {
+        padding: 75px 5%;
+      }
+
+      .tabimage {
+        height: 251px;
+        width: 100%;
+      }
+
+    
+    .ebox:nth-child(3) {
+        margin-top: 40px;
+    }
+
+    .cts {
+        font-size: 22px;
+    }
+
+    .fque {
+        font-size: 18px;
+    }
+
+    .dd {
+        color: #242A45;
+    }
+
+    .ftabhead {
+        max-width: 400px;
+        overflow-x: auto;
+        min-width: 300px;
+    }
+
+    .contactform input {
+        padding: 5px 10px;
+    }
+
+    .contactform button {
+        margin-left: 5px;
+        background-color: hsl(0, 94%, 66%);
+        border-radius: 5px;
+        padding: 7px 7px;
+        font-size: 64%;
+    }
+
+    .cts {
+        margin: 15px 0;
+    }
+
+    .cntsmall {
+        color: #ffffffef;
+        font-weight: 700;
+        letter-spacing: 3px;
+        font-size: 12px;
+    }
+
+    .bottomicon {
+        margin: 0 auto;
+    }
+
+    .faqcomp {
+        margin: 7px 0;
+    }
+
+    .faqhead span {
+        font-size: 28px;
+    }
+
+    .faqbdy {
+        margin-top: 100px;
+    }
+
+    .faqhead span:first-child {
+        text-align: center;
+    }
+
+    .ebbtn button {
+        padding: 9px;
+    }
+
+    .ebtitle {
+        font-size: 22px;
+    }
+
+    .ebversion {
+        font-family: rubik;
+        font-size: 14px;
+    }
+
+
+    .ftabhead {
+        width: 100%;
+    }
+
+    .ftabhead span.show {
+        border-left: 5px solid hsl(0, 94%, 66%)!important;
+        border-bottom: 0px!important;
+    }
+
+    .ftabhead span {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .tbheader {
+        font-size: 28px;
+    }
+
+    .extensionhead span {
+        font-size: 28px;
+        color: #222222;
+        text-align: center;
+    }
+
+    .fbsyhead span {
+        font-size: 28px;
+        color: #222222;
+    }
+
+    .minfo {
+        padding: 10px 18px;
+    }
+
+    .container-d {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #navlinks {
+        height: 80vh;
+    }
+
+    .sidelogin {
+        margin-top: auto;
+        border: 1px solid white;
+        color: white!important;
+    }
+
+    .sidelogin:hover {
+        background-color: #7e7c7cc9;
+    }
+
+    .heroimgback {
+        margin-left: 129px;
+    }
+
+    .herobtns span {
+        padding: 15px 21px;
+    }
+}
+
+
+
+
